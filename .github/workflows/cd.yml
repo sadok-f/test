@@ -154,7 +154,7 @@ jobs:
         run: |
           docker buildx imagetools create \
           -t ${{ env.REGISTRY_IMAGE }}:${{ needs.docker_publish.outputs.new_tag_version }} \
-          "$(printf '${{ env.REGISTRY_IMAGE }}@sha256:%s ' *)"
+          $(printf '${{ env.REGISTRY_IMAGE }}@sha256:%s ' *)
       -
         name: Inspect image
         run: |
