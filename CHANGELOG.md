@@ -1,5 +1,12 @@
 # Test Changelog
 
+## [1.0.8](https://github.com/sadok-f/test/compare/1.0.7...1.0.8) (2024-02-26)
+
+
+### Bug Fixes
+
+* fixing bugs ([07672bd](https://github.com/sadok-f/test/commit/07672bd6e9043ec7d7e4574d977cd5ea29314ae2))
+
 ## [1.0.7](https://github.com/sadok-f/test/compare/1.0.6...1.0.7) (2024-02-26)
 
 
